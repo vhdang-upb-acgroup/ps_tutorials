@@ -16,5 +16,13 @@ drone_navigation/
 1. Install Ubuntu 22.04 or 24.04
 2. Install ROS2: Humble (Ubuntu 22.04) or Jazzy (Ubuntu 24.04)
 3. Install Gazebo
-## 4. We are now here to use this implementation
+## We are now here to use this implementation
+1. Create a custom ROS2 package:
+   ```bash
+   1. Create your working directory: mkdir -p /<your_preference_name>/src
+   2. Navigate to your working directory: cd ..
+   3. Now you are in /<your_preference_name>
+   4. Build: ros2 pkg create --build-type ament_python <your_package_name>
+   ```
+3. Clone or download this to <your_working_directory>/src
 
