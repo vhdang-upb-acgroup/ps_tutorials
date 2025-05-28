@@ -26,5 +26,11 @@ drone_navigation/
    ## Now you are in /<your_preference_name> folder and you can build the package
    ros2 pkg create --build-type ament_python <your_package_name>
    ```
-3. Clone or download this to <your_working_directory>/src
+2. Clone or download this to <your_working_directory>/src
+   ```bash
+   # Clone the repo to your machine
+   git clone
+   # You can download it directly
+   ```
+3. Modify CMakeList.txt and package.xml accordingly
 
