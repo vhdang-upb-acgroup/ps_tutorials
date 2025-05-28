@@ -19,10 +19,12 @@ drone_navigation/
 ## We are now here to use this implementation
 1. Create a custom ROS2 package:
    ```bash
-   1. Create your working directory: mkdir -p /<your_preference_name>/src
-   2. Navigate to your working directory: cd ..
-   3. Now you are in /<your_preference_name>
-   4. Build: ros2 pkg create --build-type ament_python <your_package_name>
+   ## Create your working directory:
+   mkdir -p /<your_preference_name>/src
+   ## Navigate to your working directory:
+   cd ..
+   ## Now you are in /<your_preference_name> folder and you can build the package
+   ros2 pkg create --build-type ament_python <your_package_name>
    ```
 3. Clone or download this to <your_working_directory>/src
 
