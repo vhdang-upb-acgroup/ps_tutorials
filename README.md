@@ -7,6 +7,5 @@ This repository provides an initial implementation for students participating in
 ```bash
 ps_tutorials/
 ├── src/ 
-├── docs/
 └── README.md
 ```
